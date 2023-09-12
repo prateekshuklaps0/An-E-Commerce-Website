@@ -1,6 +1,6 @@
 # Glow, Grab,
 
-Deployed Link - https://glowgrab.netlify.app/
+Link - https://glow-grab-jqzhjqp1f-prateekshuklaps0.vercel.app
 
 ## What is Glow Grab about?
 
@@ -36,4 +36,3 @@ React / Redux / TyepScript / Json-Server / Chakra UI / Styled-Components / React
 ![Product Page](./src/images/WebsiteImages/ProductPage.png)
 
 ![Single Product](./src/images/WebsiteImages/SingleProductPage.png)
-
