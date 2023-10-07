@@ -1,16 +1,15 @@
 import "./App.css";
-import HomePage from "./Routes/HomePage";
-
-import { Routes, Route } from "react-router-dom";
+import AllRoutes from "./Routes/AllRoutes";
+import Navbar from "./Components/Navbar";
+import { Footer } from "./Components/Footer";
 
 function App() {
   return (
-    <>
-      TypeScript + React
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-      </Routes>
-    </>
+    <div className="App">
+      <Navbar />
+      <AllRoutes />
+      {/* <Footer/> */}
+    </div>
   );
 }
 

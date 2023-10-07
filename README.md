@@ -1,33 +1,38 @@
-# Glam Grab
+# Glow, Grab,
 
-Deployed Link : https://glowgrab.netlify.app/
+Link - https://glow-grab-jqzhjqp1f-prateekshuklaps0.vercel.app
 
-Repo Link : https://github.com/shaharyaaransari/quite-trade-54
+## What is Glow Grab about?
 
-https://github.com/prateekshuklaps0/An-E-Commerce-Website
+Glow Grab is an E-commerce clothing website providing services including clothing categories in men, women, kids, and sneakers.
+This Project is built with React, TypeScript, Redux, Chakra UI library, and JSON server for backend network requests.
 
-Dribble Link : https://dribbble.com/shots/18494892-Foggy-Clothing-ecommerce-Landing-Page
+## Features:-
 
-## Every Npm Package Installed :-
+- Users can create an account by providing the necessary information.
+- Registered users can log in securely to access their accounts.
+- Products are organized into categories for easy navigation, including men, women, kids, and sneakers.
+- Users can view available products within each category.
+- Users can select products and add them to their shopping cart.
+- Users can proceed to checkout and complete their purchase.
+- Users can sort products based on relevant criteria, such as price or popularity.
+- Users can apply filters to narrow their product search based on Product types.
 
-- React Router Dom : npm install react-router-dom
+## Installation
 
-- Axios : npm install axios
+Follow these steps to install and run the project locally:
 
-- Redux / React-Redux / Thunk : npm i redux react-redux redux-thunk
+1. Clone the repository: `https://github.com/shaharyaaransari/quite-trade-54`
+2. Install dependencies: `npm install`
+3. Start the server: `npm run server`
+4. Access the application via `http://localhost:3000` in your web browser.
 
-- Chakra UI : npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+## Tech Stacks Used:-
 
-- React Icons : npm install react-icons --save
+React / Redux / TyepScript / Json-Server / Chakra UI / Styled-Components / React-Router-Dom / Axios
 
-### ------------- Other--------------
+![Landing Page](./src/images/WebsiteImages/LandingPage.png)
 
-- Redux Toolkit : npm install @reduxjs/toolkit
+![Product Page](./src/images/WebsiteImages/ProductPage.png)
 
-- Chakra UI Icons : npm i @chakra-ui/icons
-
-- npm i --save-dev @types/react-slick for slider
-
-- npm install slick-carousel
-
-- Styled Components : npm i styled-components@4.1.3
+![Single Product](./src/images/WebsiteImages/SingleProductPage.png)

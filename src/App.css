@@ -1,7 +1,5 @@
-* {
-  text-align: center;
-  box-sizing: border-box;
-  -webkit-tap-highlight-color: transparent;
+.App {
+  background: rgba(44, 44, 46, 0.647);
 }
 
 /* Following Properties Have Been Used as Css */
