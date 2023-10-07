@@ -1,31 +1,5 @@
-.App {
-  background: rgba(44, 44, 46, 0.647);
-}
-
-/* Following Properties Have Been Used as Css */
-#CommonCss {
-  background: rgb(44, 44, 46);
-  background: rgba(66, 66, 75, 0.407);
-  background: rgba(66, 66, 75, 0.823);
-  background: rgba(66, 66, 75, 0.867);
-  color: rgb(158, 160, 162);
-  color: rgb(186, 255, 227);
-  font-family: Inter;
-  padding-top: 60px;
-  background-color: rgba(66, 66, 75, 0.938);
-  padding-top: 50px;
-  padding-top: 40px;
-  color: rgba(245, 245, 245, 0.625);
-  background: rgb(77, 77, 79);
-
-  :hover {
-    border: 1px solid rgb(203, 215, 227);
-    color: rgb(203, 215, 227);
-    border: rgb(229, 227, 227);
-  }
-}
-
-/* For Test Purpose */
-#Test {
-  color: rgb(164, 164, 164);
+* {
+  text-align: center;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }

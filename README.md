@@ -1,38 +1,27 @@
-# Glow, Grab,
+# React + TypeScript + Vite
 
-Link - https://glow-grab-jqzhjqp1f-prateekshuklaps0.vercel.app
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## What is Glow Grab about?
+Currently, two official plugins are available:
 
-Glow Grab is an E-commerce clothing website providing services including clothing categories in men, women, kids, and sneakers.
-This Project is built with React, TypeScript, Redux, Chakra UI library, and JSON server for backend network requests.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Features:-
+## Expanding the ESLint configuration
 
-- Users can create an account by providing the necessary information.
-- Registered users can log in securely to access their accounts.
-- Products are organized into categories for easy navigation, including men, women, kids, and sneakers.
-- Users can view available products within each category.
-- Users can select products and add them to their shopping cart.
-- Users can proceed to checkout and complete their purchase.
-- Users can sort products based on relevant criteria, such as price or popularity.
-- Users can apply filters to narrow their product search based on Product types.
+If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-## Installation
+- Configure the top-level `parserOptions` property like this:
 
-Follow these steps to install and run the project locally:
+```js
+   parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    project: ['./tsconfig.json', './tsconfig.node.json'],
+    tsconfigRootDir: __dirname,
+   },
+```
 
-1. Clone the repository: `https://github.com/shaharyaaransari/quite-trade-54`
-2. Install dependencies: `npm install`
-3. Start the server: `npm run server`
-4. Access the application via `http://localhost:3000` in your web browser.
-
-## Tech Stacks Used:-
-
-React / Redux / TyepScript / Json-Server / Chakra UI / Styled-Components / React-Router-Dom / Axios
-
-![Landing Page](./src/images/WebsiteImages/LandingPage.png)
-
-![Product Page](./src/images/WebsiteImages/ProductPage.png)
-
-![Single Product](./src/images/WebsiteImages/SingleProductPage.png)
+- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
+- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
+- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
