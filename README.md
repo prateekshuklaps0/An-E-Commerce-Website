@@ -1,27 +1,33 @@
-# React + TypeScript + Vite
+# Glam Grab
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Deployed Link : https://glowgrab.netlify.app/
 
-Currently, two official plugins are available:
+Repo Link : https://github.com/shaharyaaransari/quite-trade-54
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://github.com/prateekshuklaps0/An-E-Commerce-Website
 
-## Expanding the ESLint configuration
+Dribble Link : https://dribbble.com/shots/18494892-Foggy-Clothing-ecommerce-Landing-Page
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Every Npm Package Installed :-
 
-- Configure the top-level `parserOptions` property like this:
+- React Router Dom : npm install react-router-dom
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+- Axios : npm install axios
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Redux / React-Redux / Thunk : npm i redux react-redux redux-thunk
+
+- Chakra UI : npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+
+- React Icons : npm install react-icons --save
+
+### ------------- Other--------------
+
+- Redux Toolkit : npm install @reduxjs/toolkit
+
+- Chakra UI Icons : npm i @chakra-ui/icons
+
+- npm i --save-dev @types/react-slick for slider
+
+- npm install slick-carousel
+
+- Styled Components : npm i styled-components@4.1.3
