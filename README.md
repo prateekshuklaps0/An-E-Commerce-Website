@@ -1,4 +1,4 @@
-# Glow, Grab,
+# Glow Grab
 
 Link - https://glow-grab-jqzhjqp1f-prateekshuklaps0.vercel.app
 
